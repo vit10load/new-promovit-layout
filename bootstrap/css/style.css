@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* Pen Title */
+.pen-title {  padding: 50px 0;  text-align: center;  letter-spacing: 2px;  }
+.pen-title h1 {  margin: 0 0 20px;  font-size: 48px;  font-weight: 300;  }
+.pen-title span {  font-size: 12px;  }
+.pen-title span .fa {  color: #33b5e5;  }
+.pen-title span a {  color: #33b5e5;  font-weight: 600;  text-decoration: none;  }
+.form-module {  position: relative;  background: #ffffff;  max-width: 320px;  width: 100%;  border-top: 5px solid #33b5e5;  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);  margin: 0 auto;  }
+.form-module .toggle {  cursor: pointer;  position: absolute;  top: -0;  right: -0;  background: #33b5e5;  width: 30px;  height: 30px;  margin: -5px 0 0;  color: #ffffff;  font-size: 12px;  line-height: 30px;  text-align: center;  }
+.form-module .toggle .tooltip {  position: absolute;  top: 5px;  right: -65px;  display: block;  background: rgba(0, 0, 0, 0.6);  width: auto;  padding: 5px;  font-size: 10px;  line-height: 1;  text-transform: uppercase;  }
+.form-module .toggle .tooltip:before {  content: '';  position: absolute;  top: 5px;  left: -5px;  display: block;  border-top: 5px solid transparent;  border-bottom: 5px solid transparent;  border-right: 5px solid rgba(0, 0, 0, 0.6);  }
+.form-module .form {  display: block;  padding: 40px;  }
+.form-module .form:nth-child(2) {  display: block;  }
+.form-module h2 {  margin: 0 0 20px;  color: #33b5e5;  font-size: 18px;  font-weight: 400;  line-height: 1;  }
+.form-module input {  outline: none;  display: block;  width: 100%;  border: 1px solid #d9d9d9;  margin: 0 0 20px;  padding: 10px 15px;  box-sizing: border-box;  font-weight: 400;  -webkit-transition: 0.3s ease;  transition: 0.3s ease;  }
+.form-module input:focus {  border: 1px solid #33b5e5;  color: #333333;  }
+.form-module button {  cursor: pointer;  background: #33b5e5;  width: 100%;  border: 0;  padding: 10px 15px;  color: #ffffff;  -webkit-transition: 0.3s ease;  transition: 0.3s ease;  }
+.form-module button:hover {  background: #178ab4;  }
+.form-module .cta {  background: #f2f2f2;  width: 100%;  padding: 15px 40px;  box-sizing: border-box;  color: #666666;  font-size: 12px;  text-align: center;  }
+.form-module .cta a {  color: #333333;  text-decoration: none;  }
+.conteudo_01 {  list-style-type: none;  margin: 0px;  padding: 0px;  }
+.conteudo_01 li {  float: left;  width: 360px;  height: auto;  position: relative;  overflow: hidden;  }
+.conteudo_01 img {  width: 320px;  height: 300px;  padding: 10px;  margin: 10px;  background: #CCC;  border:5px solid #EAEAEA;  z-index: 4;  }
+/*começo das propriedades css do arquivo 2*/
+#mapas{  width: 100%;  height: 288px;  position: fixed;  bottom: 0;  }
+#map{  width: 100%;  height: 288px;  position: fixed;  bottom: 0;  }
+#na{  margin-top: 12%;  }
+#centro{  margin-left: 40%;  }
+#myCarousel{ height: 200px;  }
+#top{ margin-top: 20%;  }
+#linha{ margin-top: -3%;  }
+#h1topo{  margin-top: 10%;  }
+.logo_png{  padding: 0;  }
+#btn_location{  margin-left: 45%;  }
+#flutua{  float: right;  }
+#titulo{  font-size: 20px;  font-weight: bold;  }
+.alert {  padding: 20px;  background-color: #f44336;  color: white;  opacity: 1;  transition: opacity 0.6s;  margin-bottom: 15px;  display:none;  }
+.alert.success {display:none; background-color: #4CAF50;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {display: none; background-color: #ff9800;}
+.closebtn {  margin-left: 20px;  color: white;  font-weight: bold;  float: right;  font-size: 22px;  line-height: 20px;  cursor: pointer;  transition: 0.3s;  }
+.closebtn:hover {  color: black;  }
+/* Aqui começa islides produtos gallery*/
+.row > .column {  padding: 0 8px;  }
+.row:after {  content: "";  display: table;  clear: both;  }
+.column {  float: left;  width: 25%;  }
+/* The Modal (background) */
+.modal {  display: none;  position: fixed;  z-index: 1;  padding-top: 60px;  left: 0;  top: 0;  width: 100%;  height: 60%;  overflow: auto;  background-color: white;  }
+/* Modal Content */
+.modal-content {  position: relative;  background-color: #fefefe;  margin: auto;  padding: 0;  width: 90%;  max-width: 1200px;  }
+/* The Close Button */
+.close {  color: black;  position: absolute;  top: 3px;  right: 3px;  font-size: 35px;  font-weight: bold;  }
+.close:hover,
+.close:focus {  color: #999;  text-decoration: none;  cursor: pointer;  }
+.mySlides {  display: none; }
+.cursor {  cursor: pointer  }
+/* Next & previous buttons */
+.prev,
+.next {  cursor: pointer;  position: absolute;  top: 50%;  width: auto;  padding: 16px;  margin-top: -50px;  color: white;  font-weight: bold;  font-size: 20px;  transition: 0.6s ease;  border-radius: 0 3px 3px 0;  user-select: none;  -webkit-user-select: none;  }
+/* Position the "next button" to the right */
+.next {  right: 0;  border-radius: 3px 0 0 3px;  color: black;  }
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {  background-color: rgba(0, 0, 0, 0.8);  }
+/* Number text (1/3 etc) */
+.numbertext {  color: #f2f2f2;  font-size: 12px;  padding: 8px 12px;  position: absolute;  top: 0;  }
+img {  margin-bottom: -2px;  }
+.caption-container {  text-align: center;  background-color: black;  padding: 6px 16px;  color: white;  }
+.demo {  opacity: 0.6;  }
+.active,
+.demo:hover {  opacity: 1;  }
+img.hover-shadow {  transition: 0.3s  }
+.hover-shadow:hover {  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)  }
+#redefined{ display: none; }
+#add{ display: none ;}
